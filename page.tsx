@@ -1,0 +1,1 @@
+import Link from 'next/link';import {Bookmark,LogIn} from 'lucide-react';export default function Saved(){return <><div className="hero" style={{marginTop:30}}><Bookmark size={30}/><h1>Saved sermons</h1><p>Sign in to keep your favourite messages in one place.</p><Link className="btn" href="/login"><LogIn size={17}/> Sign in</Link></div></>}
